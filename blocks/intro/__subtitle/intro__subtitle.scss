@@ -1,0 +1,12 @@
+.intro__subtitle{
+  @include subtitles;
+  grid-area: subtitle;
+  margin: 50px 0 50px 0;
+}
+
+@include tablet{
+  .intro__subtitle{
+    @include introsubtitle_320;
+    margin: 35px 0 40px 0;
+  }
+}

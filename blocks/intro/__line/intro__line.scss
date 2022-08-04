@@ -1,0 +1,14 @@
+.intro__line{
+  max-width: 132px;
+  height: 0.1px;
+  width: 100%;
+  border: 1px solid #D7D4D4;
+  align-self: center;
+
+}
+
+@include desktop_xl {
+ .intro__line{
+  max-width: 80px;
+  width: 100%;
+}}

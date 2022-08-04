@@ -1,0 +1,13 @@
+.intro__bike-container {
+  background-color: $backroundColor;
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.2);
+  width: 440px;
+  height: 300px;
+  border-radius: 20px;
+  position: absolute;
+  display: flex;
+  z-index: 3;
+  position: sticky;
+  top: 347px;
+  margin: auto;
+}

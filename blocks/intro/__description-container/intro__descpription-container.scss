@@ -1,0 +1,18 @@
+.intro__description-container{
+  display: flex;
+  flex-direction: row;
+  grid-area: description;
+}
+
+@include desktop_xl {
+  .intro__description-container{
+    padding-bottom: 50px;
+  }
+}
+
+@include tablet
+{
+  .intro__description-container{
+    display: none;
+  }
+}

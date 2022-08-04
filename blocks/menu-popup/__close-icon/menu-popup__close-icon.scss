@@ -1,0 +1,15 @@
+.menu-popup__close-icon {
+  background-image: url(../images/menu_close_icon.svg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+  border: none;
+  align-self: flex-end;
+  margin: 20px 20px 0 0;
+  cursor: pointer;
+}
+
+.menu-popup__close-icon:hover {
+  opacity: 50%;
+}

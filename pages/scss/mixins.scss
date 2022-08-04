@@ -1,0 +1,93 @@
+// mixins for breakpoints
+
+@mixin desktop_xxl() {
+  @media screen and (max-width: $breakpoint_desktop_xxl) {
+    @content;
+  }
+}
+
+@mixin desktop_xl() {
+  @media screen and (max-width: $breakpoint_desktop_xl) {
+    @content;
+  }
+}
+
+@mixin tablet() {
+  @media screen and (max-width: $breakpoint_tablet) {
+    @content;
+  }
+}
+
+@mixin mobile() {
+  @media screen and (max-width: $breakpoint_mobile) {
+    @content;
+  }
+}
+
+// fonts mixins
+
+@mixin headerFont_desktop() {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: $mainFontColor_whiteTheme;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+@mixin mainTitles() {
+  font-family: "Inter", sans-serif;
+  font-size: 55px;
+  color: $mainFontColor_whiteTheme;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+@mixin subtitles() {
+  font-family: "inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: $addFontColor_whiteTheme;
+  line-height: 28px;
+  opacity: 70%;
+}
+
+@mixin button() {
+  font-family: "inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 1px;
+  color: $mainFontColor_darkTheme;
+}
+
+@mixin introDescription() {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $mainFontColor_whiteTheme;
+}
+
+@mixin menuMobile() {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;
+  color: $mainFontColor_whiteTheme;
+}
+
+@mixin mainTitles_320() {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  color: $mainFontColor_whiteTheme;
+}
+
+@mixin introsubtitle_320() {
+opacity: 70%;
+color: $addFontColor_whiteTheme;
+font-size: 12px;
+line-height: 18px;
+font-weight: 400;
+}

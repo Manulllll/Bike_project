@@ -1,0 +1,6 @@
+.intro__button-text {
+  @include button;
+  z-index: 5;
+  margin: auto;
+  padding: 16px 0 16px 0;
+}

@@ -1,0 +1,15 @@
+.menu-popup {
+  visibility: hidden;
+  background-color: $backroundColor;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 15;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transition: visibility .3s, opacity .3s linear;
+
+}

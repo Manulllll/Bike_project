@@ -1,0 +1,45 @@
+.intro {
+  display: grid;
+  margin: 0 0 0 24px;
+  max-width: 1320px;
+  grid-template-columns: 460px minmax(100px, 250px) 610px;
+  grid-template-rows: 20px repeat(5, auto);
+  grid-template-areas:
+    ". . ."
+    "title . image"
+    "subtitle . image"
+    "button . image"
+    "description . image"
+    ". . image";
+}
+
+@include desktop_xxl {
+  .intro {
+    max-width: 1200px;
+    grid-template-columns: 460px minmax(40px, 250px) 500px;
+  }
+}
+
+@include desktop_xl {
+  .intro {
+    max-width: 1000px;
+    margin: 0 0 0 12px;
+    grid-template-columns: minmax(300px, 460px) minmax(40px, 250px) minmax(
+        400px,
+        500px
+      );
+  }
+}
+
+@include tablet {
+  .intro {
+    grid-template-columns: 1fr 90%;
+    margin: 0 18px 0 18px;
+    grid-template-areas:
+      ". ."
+      "title title"
+      ". image"
+      "subtitle subtitle"
+      "button button";
+  }
+}

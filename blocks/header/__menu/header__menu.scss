@@ -1,0 +1,21 @@
+.header__menu {
+  display: none;
+}
+
+@include mobile {
+  .header__menu {
+    display: block;
+    height: 20px;
+    width: 22px;
+    background-image: url(../images/mobile_menu_icon.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    margin: 27px 10px 27px 0;
+    cursor: pointer;
+
+  }
+  .header__menu:hover{
+    opacity: 50%;
+  }
+}

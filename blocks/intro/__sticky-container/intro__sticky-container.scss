@@ -1,0 +1,12 @@
+.intro__sticky-container {
+  height: 430px;
+  position: absolute;
+  top: 400px;
+  left: 43%;
+}
+
+@include desktop_xxl {
+  .intro__sticky-container {
+    left: 40%;
+  }
+}

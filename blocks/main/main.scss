@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  max-width: 1440px;
+  align-self: flex-end;
+  padding: 74px 0 0 0;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1441px) {
+  .main {
+    margin: auto;
+  }
+}
+
+@include desktop_xxl {
+  .main {
+    align-self: baseline;
+  }
+}
+
+@include tablet
+ {
+  .main{
+    align-self: center;
+    margin: auto;
+  }
+ }

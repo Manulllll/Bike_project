@@ -1,0 +1,16 @@
+.header__item {
+  margin: 0;
+  padding: 28px 0 28px 0;
+  text-decoration: none;
+  @include headerFont_desktop;
+}
+
+.header__item:hover{
+  opacity: 75%;
+}
+
+@include mobile {
+  .header__item{
+    display: none;
+  }
+}
