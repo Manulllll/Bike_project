@@ -85,9 +85,59 @@
 }
 
 @mixin introsubtitle_320() {
-opacity: 70%;
-color: $addFontColor_whiteTheme;
-font-size: 12px;
-line-height: 18px;
-font-weight: 400;
+  opacity: 70%;
+  color: $addFontColor_whiteTheme;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+@mixin quota_title() {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 34px;
+  color: $mainFontColor_whiteTheme;
+}
+
+@mixin quota_author() {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: $mainFontColor_whiteTheme;
+}
+
+@mixin quota_job() {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  opacity: 70%;
+  font-weight: 400;
+  color: $addFontColor_whiteTheme;
+}
+
+@mixin quota_title_320px() {
+  font-family: "Inter", sans-serif;
+  font-size: 23px;
+  line-height: 29px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: $mainFontColor_whiteTheme;
+}
+
+@mixin quota_author_320px() {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  color: $mainFontColor_whiteTheme;
+}
+
+@mixin quota_job_320px() {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  line-height: 16px;
+  opacity: 70%;
+  color: $addFontColor_whiteTheme;
 }

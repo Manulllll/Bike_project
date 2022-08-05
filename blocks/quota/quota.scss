@@ -1,4 +1,41 @@
 .quota {
-  margin: 120px 0 0 0;
+  margin: 120px auto 0;
   display: grid;
+  max-width: 1320px;
+  width: 100%;
+  grid-template-columns: 650px minmax(300px, 470px);
+  grid-template-rows: auto;
+  gap: 6.66%;
+  align-self: center;
+}
+
+@include desktop_xxl {
+  .quota {
+    grid-template-columns: 550px minmax(200px, 470px);
+    max-width: 100%;
+    gap: 5%;
+  }
+}
+
+@include desktop_xl {
+  .quota {
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+  }
+}
+
+@include tablet{
+  .quota {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+}
+
+
+@include mobile
+{
+  .quota{
+    width: 88.75%;
+  }
 }
