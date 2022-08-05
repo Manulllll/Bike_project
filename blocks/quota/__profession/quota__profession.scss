@@ -1,0 +1,19 @@
+.quota__profession {
+  @include quota_job;
+  margin: 6px 0 0 0;
+  padding: 0;
+}
+
+@include tablet {
+  .quota__profession {
+    margin: 4px 0 0 24px;
+  }
+
+}
+
+@include mobile{
+  .quota__profession{
+    margin: 4px 0 0 0;
+    @include quota_job_320px;
+  }
+}

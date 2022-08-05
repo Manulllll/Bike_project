@@ -1,0 +1,18 @@
+.quota__author{
+  @include quota_author;
+  margin: 262px 0 0 0;
+  padding: 0;
+}
+
+@include tablet{
+  .quota__author{
+    margin: 40px 0 0 24px;
+  }
+}
+
+@include mobile{
+  .quota__author{
+    margin: 40px 0 0 0;
+    @include quota_author_320px;
+  }
+}

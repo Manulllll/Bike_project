@@ -1,0 +1,18 @@
+.quota__image {
+  width: 100%;
+  height: 100%;
+}
+
+@include desktop_xl {
+  .quota__image {
+    object-position: center;
+    object-fit: cover;
+  }
+}
+
+@include tablet {
+  .quota__image {
+    padding: 20px 0 0 0;
+    border-top: solid 1px $linecolor;
+  }
+}

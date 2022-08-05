@@ -8,14 +8,15 @@
   justify-content: flex-end;
   position: fixed;
   background-color: $backroundColor;
+  z-index: 15;
+  padding-left: calc((1440px - 1200px) / 2);
+  padding-right: calc((1440px - 1200px) / 2);
 }
 
 @include desktop_xxl {
   .header {
-    max-width: 90%;
+    max-width: 100%;
     padding: 0;
     align-items: center;
-
   }
 }
-
